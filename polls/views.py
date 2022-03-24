@@ -44,6 +44,7 @@ def index_func(request):
     else:
         pass
 
+
     return render(request, "index.html", {'response': res})
 
 
